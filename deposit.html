@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deposit - Alam Transactions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="help.html">Help</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="form-hero">
+    <img src="https://img.icons8.com/ios-filled/70/003366/money-bag.png" alt="Deposit">
+    <h1>Deposit Funds</h1>
+    <p>Top up your account securely and instantly.</p>
+  </section>
+
+  <section class="form-section">
+    <form onsubmit="return deposit(event)">
+      <label for="depositAmount">Enter Amount:</label>
+      <input type="number" id="depositAmount" min="1" required>
+      <button type="submit" class="form-btn">Deposit</button>
+    </form>
+    <p id="depositMsg" class="form-msg"></p>
+    <a href="services.html" class="back-link">← Back to Services</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Alam Transactions. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Help - Alam Transactions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="help.html">Help</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="help-hero">
+    <h1>How can we help you?</h1>
+    <p>Find answers to common questions or reach out to our support team.</p>
+  </section>
+
+  <section class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question">How do I deposit money?</button>
+        <div class="faq-answer">
+          <p>Go to the <a href="deposit.html">Deposit</a> page, enter the amount, and confirm your transaction. Your balance will update instantly.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How can I withdraw funds?</button>
+        <div class="faq-answer">
+          <p>Visit the <a href="withdraw.html">Withdraw</a> page, enter the amount you wish to withdraw, and follow the instructions.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Is my information secure?</button>
+        <div class="faq-answer">
+          <p>Absolutely! We use advanced encryption and security protocols to protect your data and transactions.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How do I contact support?</button>
+        <div class="faq-answer">
+          <p>You can reach us 24/7 via the <a href="contact.html">Contact</a> page or email us at <a href="mailto:support@alamtransactions.com">support@alamtransactions.com</a>.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">What if I forget my password?</button>
+        <div class="faq-answer">
+          <p>Currently, password reset is not automated. Please contact our support team for assistance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quick-support">
+    <h2>Need More Help?</h2>
+    <div class="support-links">
+      <a href="contact.html" class="support-btn">Contact Support</a>
+      <a href="services.html" class="support-btn">Explore Services</a>
+      <a href="about.html" class="support-btn">About Us</a>
+    </div>
+    <p style="margin-top: 18px;">We’re here for you 24/7!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Alam Transactions. All rights reserved.</p>
+  </footer>
+  <script>
+    // FAQ accordion functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const questions = document.querySelectorAll('.faq-question');
+      questions.forEach(q => {
+        q.addEventListener('click', function() {
+          const answer = this.nextElementSibling;
+          if (answer.style.maxHeight) {
+            answer.style.maxHeight = null;
+            this.classList.remove('open');
+          } else {
+            document.querySelectorAll('.faq-answer').forEach(a => {
+              a.style.maxHeight = null;
+            });
+            document.querySelectorAll('.faq-question').forEach(btn => btn.classList.remove('open'));
+            answer.style.maxHeight = answer.scrollHeight + "px";
+            this.classList.add('open');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
