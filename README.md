@@ -6,7 +6,7 @@ Welcome to **Alam Transactions** - your trusted partner for secure, fast, and re
 
 ## 🌐 Live Demo
 
-[Visit Alam Transactions](https://muntazimalam.github.io/alamtransaction.github.io/home.html)
+[Visit Alam Transactions](https://muntazimalam.github.io/alamtransaction.github.io/)
 
 ---
 
