@@ -1,4 +1,4 @@
-
+---
 
 # Alam Transactions
 
@@ -17,19 +17,6 @@ Welcome to **Alam Transactions** - your trusted partner for secure, fast, and re
 - **24/7 Support**: Our support team is available round the clock to assist you.
 - **User-Friendly Interface**: Simple and intuitive design for seamless banking.
 - **Customer Testimonials**: Trusted by users across India.
-
----
-
-## 💡 Testimonials
-
-> "Alam Transactions made my banking so much easier! The instant transfer feature is a game-changer."  
-> - Priya S., Mumbai
-
-> "Excellent customer support and a very user-friendly interface. Highly recommended!"  
-> - Arjun K., Delhi
-
-> "I feel secure knowing my transactions are protected. Love the service!"  
-> - Meera P., Bengaluru
 
 ---
 
