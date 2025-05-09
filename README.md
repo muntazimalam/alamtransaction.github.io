@@ -23,7 +23,7 @@ Welcome to **Alam Transactions** - your trusted partner for secure, fast, and re
 ## 📦 How to Use
 
 1. **Visit the Website:**  
-   Go to [https://muntazimalam.github.io/alamtransaction.github.io/home.html](https://muntazimalam.github.io/alamtransaction.github.io/home.html)
+   Go to [https://muntazimalam.github.io/alamtransaction.github.io/home.html](https://muntazimalam.github.io/alamtransaction.github.io)
 
 2. **Explore Services:**  
    - Browse through the homepage to learn about our features.
