@@ -1,7 +1,6 @@
 ---
-
-# Alam Transactions
-
+title: "Alam Transactions"
+---
 Welcome to **Alam Transactions** - your trusted partner for secure, fast, and reliable banking transactions. Experience the future of digital banking with a user-friendly interface, instant transfers, and robust security.
 
 ## 🌐 Live Demo
